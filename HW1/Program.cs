@@ -54,6 +54,7 @@ else
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
+// Комментарий: на сайте GB я указала, что задача 4 не решается. Я все исправила и она заработала!)
 
 Console.Write("Input integer number ");
 int num = Convert.ToInt32(Console.ReadLine());
