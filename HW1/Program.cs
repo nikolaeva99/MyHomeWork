@@ -59,11 +59,11 @@ Console.Write("Input integer number ");
 int num = Convert.ToInt32(Console.ReadLine());
 int current = 1;
 
-
-if (current % 2 == 0)
+while (current <= num)
 {
-    Console.Write(current + " ");
+    if (current % 2 == 0)
+    {
+        Console.Write(current + " ");
+    }
+        current++;
 }
-else 
-    current++;
-while (current <= num);
