@@ -1,144 +1,4 @@
 ﻿/*
-// Задача 1. В которой 
-// Метод то строчки 1-21
-
-
-int ShowNumber(int n)
-{
-    int firstNum = n/10;
-    int secondNum = n % 10;
-
-// Чтобы сделать наглядо сделаем промежуточный вывод;
-
-    Console.Write(n + " -> ");
-
-    if (firstNum > secondNum)
-    {
-        return firstNum;
-    }
-    else
-    {
-        return secondNum;
-    }
-}
-
-
-int num = new Random().Next(10,99); // сгенерировали нам
-int a = ShowNumber(num); // после чего отправили нам в качестве аргкмента в метод
-Console.WriteLine (a);
-
-
-// Задача 1. Второе решение
-
-void ShowNumber()
-{
-    int num = new Random().Next(10, 99);
-
-    Console.Write(num + " -> ");
-
-    if (num/10 > num %10)
-    {
-        Console.Write(num/10);
-    }
-    else 
-        Console.WriteLine(num % 10);
-}
-
-ShowNumber();
-*/
-
-/*
-
-//Задача 2. выводит 3х значное число и удаляет 2-е по счету.
-
-void DelMidNum ()
-{
-    int num = new Random().Next(100, 999);
-    int num1 = num/100;
-    int num3 = num % 10;
-
-    Console.Write (num + "->");
-    Console.Write (num1*10 + num3);
-}
-DelMidNum();
-*/
-/*
-// Задача 3. Метод Принимает на вход 2 числа и проверяет делится ли одно их них на другое. Если нет - вывести остаток от деления
-
-void DelCheck (int num1,
-               int num2)
-{
-    int del1 = num1 % num2;
-    
-    if (del1 == 0)
-    {
-        Console.WriteLine(num1 + " делится нацело на " + num2);
-    }
-    else
-    {
-        Console.WriteLine(num1 + " не делится нацело на " + num2);
-        Console.WriteLine ("Остаток равен "+ del1);
-    }
-}
- Console.Write("Input first integer number: ");
- int num1 = Convert.ToInt32(Console.ReadLine());
- Console.Write("Input second integer number: ");
- int num2 = Convert.ToInt32(Console.ReadLine());
-
-DelCheck(num1, num2);
-*/
-
-/*
-// Задача 4. Метод в котором проверить - принимает на вход число и кратоно ли оно и 7ке И 23
-
-void MultipleCheck(int num1)
-{
-    int mult1 = num1 % 7;
-    int mult2 = num1 % 23;
-
-    if (mult1 == 0 | mult2 == 0)
-    {
-        Console.WriteLine (num1 + " is multipled of both" );
-    }
-    else
-    {
-        Console.WriteLine (num1 + " is NOT multipled of them");
-    }
-}
-
-Console.Write("Input integer number: ");
-int num1 = Convert.ToInt32(Console.ReadLine());
-MultipleCheck(num1);
-*/
-/*
-// Задача 5. принимает 2 числа и является ли одно число квадратом другого 
-
-void SqdCheck (int a, int b)
-{
-    if (a == b*b)
-    {
-        Console.WriteLine("First number is quad of second number");
-    }
-    else
-    {
-        Console.WriteLine("First number is NOT quad of second number");
-    }
-}
-Console.Write("Input first integer number: ");
-int num1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input second integer number: ");
-int num2 = Convert.ToInt32(Console.ReadLine());
-
-SqdCheck(num1,num2);
-*/
-
-
-
-
-
-
-
-/*
 // Задача 10. Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 // 456 -> 5
 // 782 -> 8
@@ -166,9 +26,11 @@ MidNum(num);
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
+//Комментарий: Я пока в раздумьях над этой задачей(
+
 void MiddNumShow(int a)
 {
-    a/
+    
 }
 Console.Write("Input integer number: ");
 int num = Convert.ToInt32(Console.ReadLine());
