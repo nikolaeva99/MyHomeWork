@@ -3,6 +3,7 @@
 // 12821 -> да
 // 23432 -> да
 
+/*
 void Palindrome (int a)
 {
     int lastNum = a % 10;
@@ -26,6 +27,7 @@ void Palindrome (int a)
 Console.Write ("Input 5-digit number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 Palindrome (num);
+*/
 
 /*
 // Задача 2. Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
