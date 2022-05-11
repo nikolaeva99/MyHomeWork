@@ -28,7 +28,7 @@ MidNum(num);
 
 void MiddNumShow(int a)
 {
-    if (a / 1000 > 0.1)
+    if (a / 1000 > 1)
     {
         int result = a % 10;
         Console.WriteLine ("Third number is -> " + result);
@@ -36,9 +36,9 @@ void MiddNumShow(int a)
     else 
     {
         if (a / 1000 > 0.1)
-            Console.WriteLine ("Third number is abcent");
+            Console.WriteLine ("Third number is abcent!");
         else
-            while (a / 1000 < 0.1)
+            while (a / 1000 < 1)
             {
                 int reduce = a / 10;
                 a = reduce; 
